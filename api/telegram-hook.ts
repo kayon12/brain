@@ -1,3 +1,5 @@
+import { VercelRequest, VercelResponse } from "@vercel/node";
+import { Telegraf } from "telegraf";
 // Environment variables
 const BOT_TOKEN = process.env.BOT_TOKEN; // Replace with your bot token
 const SECRET_HASH = "67e58fbahey833349df3383dc910e196"; // Replace with your own secret hash
